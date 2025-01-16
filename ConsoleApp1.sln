@@ -46,7 +46,7 @@ Console.WriteLine("Calculator Program");
             char choice = Convert.ToChar(Console.ReadLine());
             if (choice != 'Y' && choice != 'y')
             {
-              brak;
+              break;
             }
         }
     }
